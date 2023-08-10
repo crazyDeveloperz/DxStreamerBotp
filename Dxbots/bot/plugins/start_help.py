@@ -54,7 +54,7 @@ async def start(b, m):
         except UserNotParticipant:
              await DxStreamBot.send_photo(
                 chat_id=m.chat.id,
-                photo="https://telegra.ph/file/93382b91fe810ba981de8.jpg",
+                photo="https://graph.org/file/dbe409c95ca5f6aa4cf13.jpg",
                 caption="<i>𝙹𝙾𝙸𝙽 CHANNEL 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴🔐</i>",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -102,7 +102,7 @@ async def help_handler(bot, message):
         except UserNotParticipant:
             await DxStreamBot.send_photo(
                 chat_id=message.chat.id,
-                photo="https://telegra.ph/file/93382b91fe810ba981de8.jpg",
+                photo="https://graph.org/file/dbe409c95ca5f6aa4cf13.jpg",
                 Caption="**𝙹𝙾𝙸𝙽 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿 𝚃𝙾 𝚄𝚂𝙴 ᴛʜɪs Bᴏᴛ!**\n\n__Dᴜᴇ ᴛᴏ Oᴠᴇʀʟᴏᴀᴅ, Oɴʟʏ Cʜᴀɴɴᴇʟ Sᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜᴇ Bᴏᴛ!__",
                 reply_markup=InlineKeyboardMarkup(
                     [
